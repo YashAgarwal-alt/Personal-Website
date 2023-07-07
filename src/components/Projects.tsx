@@ -28,23 +28,6 @@ const projects = [
         github: "https://github.com/YashAgarwal-alt/TidyTuesday",
         link: "",
       },
-    //   {
-    //     name: "Rate My Course/Professor - University of Toronto Edition",
-    //     description:
-    //       "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    //     image: "/thankfulthoughts.png",
-    //     github: "https://github.com/hqasmei/thankful-thoughts",
-    //     link: "",
-    //   },
-    //   {
-    //     name: "Google Data Analytics Case Study",
-    //     description:
-    //       "3 case studies performed during the google data analytics case study course",
-    //     image: "/thankfulthoughts.png",
-    //     github: "https://github.com/hqasmei/thankful-thoughts",
-    //     link: "https://thankfulthoughts.io/",
-    //   },
-    
 ]
 
 const Projects = () => {
@@ -58,10 +41,10 @@ const Projects = () => {
         <div className='flex flex-col space-y-8'>
             {projects.map((project, idx) => {
                 return (
-                    <div className='flex flex-col md:flex-row md:space-x-12'>
+                    <div className='flex flex-col md:flex-row md:space-x-12' key={idx}>
                         {/* Image */}
                         <div className='mt-8 md:w-1/2'>
-                            <Link href={project.github} target='_blank'>
+                            <Link href={project.github} target='_blank' passHref>
                                 <Image
                                 src={project.image}
                                 alt=""
