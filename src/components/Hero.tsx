@@ -34,7 +34,7 @@ const Hero = () => {
 
             {/* Home Text */}
             <div className='md:mt-2 w-4/5'>
-                <h1 className='font-bold text-4xl mt-6 md:text-6xl md:mt-0'>Hi, I&#39;m Yash!</h1>
+                <h1 className='font-bold text-4xl mt-6 md:text-6xl md:mt-0'>Hello, I&#39;m Yash!</h1>
                 <p className='text-lg mt-4 mb-6 md:text-2xl'>I&#39;m a {" "}
                 <span className='font-semibold text-cyan-400'>University of Toronto</span>
                 {" "} graduate. </p>

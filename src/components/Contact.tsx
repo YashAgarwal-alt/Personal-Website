@@ -7,7 +7,7 @@ const contactInfo = {
   email: 'yashleo81@gmail.com',
   phone: '(647)-783-0076',
   description:
-    'I am currently looking for opportunities for internships/work starting from July 1st, 2023. If you have any positions available, feel free to reach out!',
+    'I am currently looking for opportunities for work, if you have any positions available, feel free to reach out!',
 };
 
 const Contact = () => {

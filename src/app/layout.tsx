@@ -18,7 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+      </head>
       <body>
         <ThemeProvider enableSystem={true} attribute='class'>
           <Navbar />
